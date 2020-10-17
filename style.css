@@ -50,6 +50,7 @@ body{
     margin-top: 15px;
     float: right;
     padding-top: 5px;
+    margin-left: -20px;
 }
 #chk:checked ~ .navbar{
     margin-top: 0;
@@ -71,6 +72,7 @@ body{
     text-align: center;
     place-items: center;
     display: inline-block;
+    margin-left: -120px;
 }
 .navbar ul li{
     display: block;
