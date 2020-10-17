@@ -97,7 +97,9 @@ body{
 .navbar ul li:first-child{
     margin-top: 20px;
 }
-
+.navbar ul li:last-child{
+    margin-bottom: 40px;
+}
 #abt .fa{
     padding-left: 5px;
 }
@@ -526,6 +528,8 @@ body{
 }
 .icons1 span:nth-child(1){
     margin-left: -55px;
+    color: #fff;
+    text-decoration: none;
 }
 .icons1 .fa{
     padding: 7px;
