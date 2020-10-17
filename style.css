@@ -251,6 +251,7 @@ body{
     margin: 0 5px;
     border-radius: 50%;
     color: #fff;
+    margin-bottom: 30px;
 }
 .back-face ul a:hover{
     background: none;
