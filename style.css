@@ -28,7 +28,7 @@ body{
     font-family: sans-serif;
     font-weight: 600;
     font-style: italic;
-    padding-left: 5px;
+    padding:5px 0 0 5px;
     font-size: 37px;
 }
 .name h5{
@@ -48,7 +48,8 @@ body{
     color: #1cc7d0;
     font-size: 30px;
     margin-top: 15px;
-    margin-left: 150px;
+    float: right;
+    padding-top: 5px;
 }
 #chk:checked ~ .navbar{
     margin-top: 0;
@@ -58,7 +59,7 @@ body{
     position: fixed;
     background: rgba(0, 0, 0, 0.9);
     z-index: 1111;
-    margin-top: -72px;
+    margin-top: -80px;
 }
 .navbar{
     padding-top: 40px;
@@ -90,6 +91,9 @@ body{
 }
 .navbar ul li a:hover {
     color: #1cc7d0;
+}
+.navbar ul li:first-child{
+    margin-top: 20px;
 }
 
 #abt .fa{
@@ -138,7 +142,7 @@ body{
     height: 300px;
 }
 .slide img{
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 
@@ -288,6 +292,7 @@ body{
 }
 .sub-serv2:hover{
     cursor: pointer;
+    border: 2px solid #1cc7d0;
 }
 
 .sub-serv3{
@@ -607,7 +612,7 @@ body{
         display: none;
     }
     .name{
-        margin-top: 10px;
+        margin-top: 35px;
     }
     .navbar{
         margin-top: -15px;
@@ -617,7 +622,7 @@ body{
         text-align: center;
         place-items: center;
         float: right;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .navbar ul li{
         display: inline-block;
@@ -634,7 +639,7 @@ body{
         height: 600px;
     }
     .slide img{
-        margin-top: 30px;
+        margin-top: 70px;
     }
 
 
@@ -674,7 +679,7 @@ body{
     }
     .sub-serv2{
         height: 350px;
-        width: 250px;
+        width: 300px;
         margin: 20px auto;
     }
     .sub-serv4 h4{
