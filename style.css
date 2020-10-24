@@ -540,12 +540,14 @@ body{
     color: #fff;
 
 }
-.icons1 p{
+.icons1 a{
     padding-left: 10px;
     font-size: 18px;
     padding-top: 5px;
+    text-decoration:none;
+    color: white;
 }
-.icons1 p:hover{
+.icons1 a:hover{
     cursor: pointer;
 }
 .sub-contact h5{
